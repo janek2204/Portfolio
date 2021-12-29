@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu, Modal, Icon, Container } from "semantic-ui-react";
+import { motion } from "framer-motion/dist/framer-motion";
 
 function exampleReducer(state, action) {
   switch (action.type) {
@@ -33,11 +34,35 @@ function ContactMe() {
         open={open}
         onClose={() => dispatch({ type: "CLOSE_MODAL" })}
       >
-        <Modal.Content >
-          <Container textAlign="center" >
-            <a href="https://github.com/janek2204" target="_blank" rel="noopener noreferrer"><Icon name="github" color="black" size="massive" /></a>
-            <a href="https://www.linkedin.com/in/piotr-jankowski2204/" target="_blank" rel="noopener noreferrer"><Icon name="linkedin" color="blue" size="massive" /></a>
-            <a href={'mailto:piotr.jankowski2204@gmail.com?subject=Hi! I seen your portfolio!'}><Icon name="mail" color="red" size="massive" /></a>
+        <Modal.Content>
+          <Container textAlign="center" className="modalIcons">
+            <motion.div whileHover={{ scale: 1.3 }}>
+              <a
+                href="https://github.com/janek2204"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="github" color="black" size="massive" />
+              </a>{" "}
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.3 }}>
+              <a
+                href="https://www.linkedin.com/in/piotr-jankowski2204/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name="linkedin" color="blue" size="massive" />
+              </a>
+            </motion.div>
+            <motion.div whileHover={{ scale: 1.3 }}>
+              <a
+                href={
+                  "mailto:piotr.jankowski2204@gmail.com?subject=Hi! I seen your portfolio!"
+                }
+              >
+                <Icon name="mail" color="red" size="massive" />
+              </a>
+            </motion.div>
           </Container>
         </Modal.Content>
       </Modal>

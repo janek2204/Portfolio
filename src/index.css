@@ -18,17 +18,22 @@
   padding: 3px;
 }
 
+.buttonsMotion{
+  margin-top: 1em !important;
+}
 .item{
   padding: 3px !important;
   padding-right: 10px !important;
   color: white !important;
   font-family: 'Architects Daughter', cursive !important;
   font-size: 1.6em;
+  margin-right: 2em;
 }
 .ui.header.myname{
   color: white !important;
   font-family: 'Yellowtail', cursive;
   font-size: 1.8em !important;
+  margin-left: 0.6em;
 }
 .ui.tiny.menu .item:before{
   background: none;
@@ -41,4 +46,9 @@
 
 body{
   background-color: rgba(116, 8, 8, 0.952) !important;
+}
+
+.modalIcons{
+  display: flex !important;
+  justify-content: center !important;
 }
