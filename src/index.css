@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Yellowtail&display=swap');
+
 .ui.inverted.raised.center.aligned.segment{
   margin-top: 10em;
   border-radius: 30px;
+}
+
+.content{
+  background-color: rgba(116, 8, 8, 0.582) !important;
+}
+
+.ui.tiny.modal.transition.visible.active, .content{
+  border-radius: 50px !important;
+}
+
+.ui.tiny.image{
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.item{
+  padding: 3px !important;
+  padding-right: 10px !important;
+  color: white !important;
+  font-family: 'Architects Daughter', cursive !important;
+  font-size: 1.6em;
+}
+.ui.header.myname{
+  color: white !important;
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.8em !important;
+}
+.ui.tiny.menu .item:before{
+  background: none;
+  content: 0;
+}
+.ui.tiny.menu{
+  background-color: rgba(255, 255, 255, 0.178);
+  border-bottom: 2px solid;
+}
+
+body{
+  background-color: rgba(116, 8, 8, 0.952) !important;
 }
