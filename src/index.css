@@ -5,10 +5,6 @@
   border-radius: 30px;
 }
 
-.content{
-  background-color: rgba(116, 8, 8, 0.582) !important;
-}
-
 .ui.tiny.modal.transition.visible.active, .content{
   border-radius: 50px !important;
 }
@@ -27,7 +23,7 @@
 .item{
   padding: 3px !important;
   padding-right: 10px !important;
-  color: bisque !important;
+  color: rgb(0, 0, 0) !important;
   font-family: 'Architects Daughter', cursive !important;
   font-size: 1.6em;
   margin-right: 2em;
@@ -41,7 +37,7 @@
 }
 
 .ui.header.myname{
-  color: bisque !important;
+  color: rgb(0, 0, 0) !important;
   font-family: 'Yellowtail', cursive;
   font-size: 1.8em !important;
   margin-left: 0.6em;
@@ -57,19 +53,19 @@
   background: none;
   content: 0;
 }
-.ui.tiny.menu{
-  background-color: rgba(255, 255, 255, 0.116);
+
+.ui.tiny.stackable.top.fixed.menu{
+  background-color: rgba(255, 0, 0, 0.418);
   border-bottom: 2px solid;
   border-left: 2px solid;
   border-top: 1px solid;
-  box-shadow: 5px 10px 20px 5px red inset;
+  box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset;
 }
 
-body, #root{
-  background-color: rgba(116, 8, 8, 0.952) !important;
-  box-shadow: 5px 10px 15px 5px rgb(255, 0, 0) inset;
+body{
   cursor: url('./assets/cur1054.cur'), pointer !important;
 }
+
 
 .modalIcons{
   display: flex !important;
@@ -77,15 +73,15 @@ body, #root{
 }
 
 .titles{
-  margin-top: 2em !important;
-  color: bisque !important;
+  margin-top: 4em !important;
+  color: rgb(0, 0, 0) !important;
   text-shadow: 2px 5px 10px black;
   font-family: 'Architects Daughter', cursive !important;
 }
 
 .divider{
   height: 0.2em !important;
-  background-color: rgb(209, 109, 28) !important;
+  background-color: rgb(206, 6, 6) !important;
   width: 110%;
   margin-left: -5rem !important;
   box-shadow: 5px 5px 10px rgb(0, 0, 0);
@@ -93,7 +89,7 @@ body, #root{
 }
 
 .description{
-  color: bisque !important;
+  color: rgb(0, 0, 0) !important;
   font-family: 'Architects Daughter', cursive !important;
   font-size: 1.5em !important;
 }
@@ -107,8 +103,8 @@ body, #root{
 
 .cardContent{
   border-top: 0px !important;
-  background-color: rgb(209, 109, 28) !important;
-  box-shadow: 0px 0px 10px 2px rgb(97, 50, 12)inset !important;
+  background-color: rgba(255, 0, 0, 0.418) !important;
+  box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset !important;
 }
 
 .card{
@@ -117,5 +113,5 @@ body, #root{
 
 .card:hover{
   transform: scale(1.05) !important;
-  box-shadow: 0px 0px 10px 2px rgb(255, 255, 255) !important;
+  box-shadow: 0px 0px 10px 8px rgb(240, 5, 5) !important;
 }
