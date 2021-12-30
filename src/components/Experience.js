@@ -28,7 +28,7 @@ const Experience = () => {
           developed a pleasure for clear code, a keenness to learn new
           technologies and an enthusiasm for solving both real world and
           technical problems. While studying at GA, I have worked on multiple
-          projects solely and pair/group coding, both remote and on campus.
+          projects solely and pair/group coding.
         </Header>
       </Container>
     </motion.div>
