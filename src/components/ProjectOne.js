@@ -64,17 +64,17 @@ const ProjectOne = () => {
         >
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={project1} />
+              <Image size="huge" src={project1} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={pic1} />
+              <Image size="huge" src={pic1} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={pic2} />
+              <Image size="huge" src={pic2} />
             </div>
           </SwiperSlide>
         </Swiper>

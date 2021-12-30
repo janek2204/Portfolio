@@ -48,7 +48,7 @@ const ProjectTwo = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit site here!
+            Visit BreweryApp!
           </a>
         </Header>
         <Swiper
@@ -62,17 +62,17 @@ const ProjectTwo = () => {
         >
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={project2} />
+              <Image size="huge" src={project2} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={pic1} />
+              <Image size="huge" src={pic1} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="swiper-zoom-container">
-              <Image src={pic2} />
+              <Image size="huge" src={pic2} />
             </div>
           </SwiperSlide>
         </Swiper>
