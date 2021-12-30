@@ -1,10 +1,17 @@
 import React from "react";
 import { Container, Segment } from "semantic-ui-react";
 import Typical from "react-typical";
+import { motion } from "framer-motion/dist/framer-motion";
 
 
 const Home = () => {
   return (
+    <motion.div 
+    initial={{ opacity:0 }}
+    animate={{ opacity:1 }}
+    exit={{ opacity:0 }}
+    transition={{ duration:0.8 }}
+    >
     <Container>
       <Segment textAlign="center" raised inverted>
         <Typical
@@ -28,6 +35,7 @@ const Home = () => {
         </Segment>
       </Segment>
     </Container>
+    </motion.div>
   );
 };
 

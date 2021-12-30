@@ -14,9 +14,16 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const Portfolio = () => {
   return (
+    <motion.div 
+    initial={{ opacity:0 }}
+    animate={{ opacity:1 }}
+    exit={{ opacity:0 }}
+    transition={{ duration:0.8 }}
+    >
     <Container>
       <Header as="h1" className="titles">
         Check out my projects!
@@ -65,6 +72,7 @@ const Portfolio = () => {
 
       </CardGroup>
     </Container>
+    </motion.div>
   );
 };
 
