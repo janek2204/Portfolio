@@ -68,6 +68,7 @@
 body, #root{
   background-color: rgba(116, 8, 8, 0.952) !important;
   box-shadow: 5px 10px 15px 5px rgb(255, 0, 0) inset;
+  cursor: url('./assets/cur1054.cur'), pointer !important;
 }
 
 .modalIcons{
