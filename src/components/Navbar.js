@@ -8,7 +8,7 @@ import { motion } from "framer-motion/dist/framer-motion";
 const Navbar = () => {
   return (
     <Menu size="tiny">
-      <motion.circle animate={{ x: [0, 200, 0] }} transition={{ ease: "easeIn" }}>
+      <motion.circle animate={{ x: [0, 200, 0] }} transition={{ ease: "easeIn" }} whileTap={{ scale: 0.1 }}>
         <Menu.Item>
           <Header as={("h4", Link)} to="/" className="myname">
             <Image src={me} size="tiny"></Image>
@@ -18,22 +18,21 @@ const Navbar = () => {
       </motion.circle>
       <Menu.Menu className="buttonsMotion" position="right">
       <motion.circle className='motion' animate={{ x: [0, -200, 0] }} transition={{ ease: "easeIn" }}>
-        <motion.div whileHover={{ scale: 1.6 }}>
+        <motion.div whileHover={{ scale: 1.6 }} whileTap={{ scale: 0.9 }}>
           <Menu.Item as={Link} to="/expiriance">
             Expiriance
           </Menu.Item>
         </motion.div>
-        <motion.div whileHover={{ scale: 1.6 }}>
+        <motion.div whileHover={{ scale: 1.6 }}  whileTap={{ scale: 0.9 }}>
           <Menu.Item as={Link} to="/portfolio">
             Portfolio
           </Menu.Item>
         </motion.div>
-        <motion.div whileHover={{ scale: 1.6 }}>
+        <motion.div whileHover={{ scale: 1.6 }} whileTap={{ scale: 0.9 }}>
           <ContactMe />
         </motion.div>
         </motion.circle>
       </Menu.Menu>
-      
     </Menu>
   );
 };

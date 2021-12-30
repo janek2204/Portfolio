@@ -36,7 +36,7 @@ function ContactMe() {
       >
         <Modal.Content>
           <Container textAlign="center" className="modalIcons">
-            <motion.div whileHover={{ scale: 1.3 }}>
+            <motion.div whileHover={{ scale: 1.3 }} whileTap={{ scale: 0.9 }}>
               <a
                 href="https://github.com/janek2204"
                 target="_blank"
@@ -45,7 +45,7 @@ function ContactMe() {
                 <Icon name="github" color="black" size="massive" />
               </a>{" "}
             </motion.div>
-            <motion.div whileHover={{ scale: 1.3 }}>
+            <motion.div whileHover={{ scale: 1.3 }} whileTap={{ scale: 0.9 }}>
               <a
                 href="https://www.linkedin.com/in/piotr-jankowski2204/"
                 target="_blank"
@@ -54,7 +54,7 @@ function ContactMe() {
                 <Icon name="linkedin" color="blue" size="massive" />
               </a>
             </motion.div>
-            <motion.div whileHover={{ scale: 1.3 }}>
+            <motion.div whileHover={{ scale: 1.3 }} whileTap={{ scale: 0.9 }}>
               <a
                 href={
                   "mailto:piotr.jankowski2204@gmail.com?subject=Hi! I seen your portfolio!"
