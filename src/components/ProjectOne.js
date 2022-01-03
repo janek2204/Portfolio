@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Header, Image, Divider } from "semantic-ui-react";
 import { motion } from "framer-motion/dist/framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectCube, Pagination, Zoom, Navigation } from "swiper";
+import SwiperCore, { EffectCube, Scrollbar, Zoom, Navigation, Keyboard } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import project1 from "../assets/project1.png";
 import pic1 from "../assets/project1/pic1.png";
 import pic2 from "../assets/project1/pic2.png";
 
-SwiperCore.use([EffectCube, Pagination, Zoom, Navigation]);
+SwiperCore.use([EffectCube, Scrollbar, Zoom, Navigation, Keyboard]);
 const ProjectOne = () => {
   return (
     <motion.div
@@ -42,7 +42,7 @@ const ProjectOne = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub repo
+            GitHub repo!
           </a>
           <br />
           <a
@@ -54,13 +54,26 @@ const ProjectOne = () => {
           </a>
         </Header>
         <Swiper
+          scrollbar={{
+            hide: true,
+          }}
+          style={{
+            "--swiper-navigation-color": "red",
+          }}
+          speed={1000}
           effect={"cube"}
           grabCursor={true}
-          pagination={true}
           className="mySwiper"
           zoom={true}
           navigation={true}
-          loop={true}
+          cubeEffect={{
+            shadow: true,
+            slideShadows: false,
+          }}
+          loop={false}
+          keyboard={{
+            "enabled": true
+          }}
         >
           <SwiperSlide>
             <div className="swiper-zoom-container">
