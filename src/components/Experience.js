@@ -15,20 +15,19 @@ const Experience = () => {
           My recent coding experience!
         </Header>
         <Divider className="divider" />
-          <Header as='h2' className="titles">
-            Software Engineering Immersive Course, General Assembly London,
-            Remote | Sep 2021 - Dec 2021
-          </Header>
-          <Header as="h4" className="description">
+        <Header as="h2" className="titles">
+          Software Engineering Immersive Course, General Assembly London, Remote
+          | Sep 2021 - Dec 2021
+        </Header>
+        <Header as="h4" className="description">
           The GA SEI course was a full time immersive course that included over
-          400 hours of professional study and a further 400+ hours of extra
-          curricular study over 12 weeks. Throughout my time on the course, I
-          have gained knowledge of front-end and back-end technologies and have
-          the ability to create real world working web applications. I have
-          developed a pleasure for clear code, a keenness to learn new
-          technologies and an enthusiasm for solving both real world and
-          technical problems. While studying at GA, I have worked on multiple
-          projects solely and pair/group coding.
+          400 hours of professional study and a further 400+ hours of practical
+          coding over a 12 week period. During the course, I have gained
+          knowledge of front-end and back-end technologies and can now create
+          real-world working web applications. I have developed a passion for
+          clean code, new technologies and an enthusiasm for solving both real
+          world and technical problems. While studying at GA, I have worked on
+          multiple projects independently and in a pair/group coding scenario.
         </Header>
       </Container>
     </motion.div>

@@ -32,11 +32,10 @@ const ProjectFour = () => {
         </Header>
         <Divider className="divider" />
         <Header as="h4" className="description">
-          In the last project I had to use Django with PostgreSQL as a backend
-          server and React.js for the frontend. I decided to do this project
-          solo. After quick thought about what I would like to build, I decided
-          to try my strength with something I haven’t tried before and I go with
-          the e-commerce website.
+          For this project I had to use Django with PostgreSQL as a back-end
+          server and React.js for the front-end. I decided to do this project
+          independently. After some thought about what I would like to build, I decided
+          to do something I haven’t tried before so I picked an e-commerce website.
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="description">

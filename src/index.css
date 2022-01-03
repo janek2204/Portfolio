@@ -75,7 +75,7 @@ body{
 .titles{
   margin-top: 4em !important;
   color: rgb(0, 0, 0) !important;
-  text-shadow: 2px 5px 10px black;
+  text-shadow: 4px 5px 20px rgb(65, 61, 61);
   font-family: 'Architects Daughter', cursive !important;
 }
 

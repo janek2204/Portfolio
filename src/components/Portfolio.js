@@ -30,7 +30,7 @@ const Portfolio = () => {
       </Header>
       <Divider className="divider" />
       <Header as="h4" className="description">
-        Here you can find projects which I was worked on recently
+        Here you can find projects which I worked on recently
       </Header>
 
       <CardGroup itemsPerRow={2} stackable>

@@ -33,8 +33,8 @@ const ProjectTwo = () => {
         <Header as="h4" className="description">
           BreweryApp is a beer searching app using BrewDog API. BreweryApp will
           help you to find your favourite BrewDog beer. This was a 2-day
-          hackathon project that was pair coded and my first experience of using
-          a public API and building the front-end in React.
+          hackathon that was pair-coded and my first experience of using
+          a open-source API whilst building the front-end in React.
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="description">
@@ -76,7 +76,7 @@ const ProjectTwo = () => {
             slideShadows: false,
           }}
           keyboard={{
-            "enabled": true
+            enabled: true,
           }}
         >
           <SwiperSlide>

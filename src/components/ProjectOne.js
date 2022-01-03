@@ -2,7 +2,13 @@ import React from "react";
 import { Container, Header, Image, Divider } from "semantic-ui-react";
 import { motion } from "framer-motion/dist/framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectCube, Scrollbar, Zoom, Navigation, Keyboard } from "swiper";
+import SwiperCore, {
+  EffectCube,
+  Scrollbar,
+  Zoom,
+  Navigation,
+  Keyboard,
+} from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import project1 from "../assets/project1.png";
@@ -24,13 +30,13 @@ const ProjectOne = () => {
         </Header>
         <Divider className="divider" />
         <Header as="h4" className="description">
-          Space Invaders is a classic arcade game from the 80s. The player aims
-          to shoot an invading alien armada before it reaches the planet's
-          surface using a mounted gun turret. For theme of the game I choose
-          virus attacking lab. This was my first project from General Assembly's
-          Software Engineering Immersive course. It was an individual project
-          built in 9 days and was the first proper game I had built, and my
-          first real-world type practice with vanilla JavaScript and CSS.
+          Space Invaders is a classic arcade game from the 80s. The goal of the
+          game is for the player to shoot an invading alien armada before it
+          reaches the planet's surface using a mounted gun turret. For the theme
+          of the game I chose a virus attacking the lab. This was my first
+          project from General Assembly's course. It was an individual project
+          built in 9 days and was the first proper game I had built as well as my
+          first real-world web application with vanilla JavaScript and CSS.
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="description">
@@ -72,7 +78,7 @@ const ProjectOne = () => {
           }}
           loop={false}
           keyboard={{
-            "enabled": true
+            enabled: true,
           }}
         >
           <SwiperSlide>
