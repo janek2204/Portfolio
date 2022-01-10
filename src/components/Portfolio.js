@@ -18,22 +18,22 @@ import { motion } from "framer-motion/dist/framer-motion";
 
 const Portfolio = () => {
   return (
-    <motion.div 
-    initial={{ opacity:0 }}
-    animate={{ opacity:1 }}
-    exit={{ opacity:0 }}
-    transition={{ duration:0.8 }}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.8 }}
     >
-    <Container>
-      <Header as="h1" className="titles">
-        Check out my projects!
-      </Header>
-      <Divider className="divider" />
-      <Header as="h4" className="description">
-        Here you can find projects which I worked on recently
-      </Header>
+      <Container>
+        <Header as="h1" className="titles">
+          Check out my projects!
+        </Header>
+        <Divider className="divider" />
+        <Header as="h4" className="description">
+          Here you can find the projects I recently worked on
+        </Header>
 
-      <CardGroup itemsPerRow={2} stackable>
+        <CardGroup itemsPerRow={2} stackable>
           <Card className="card" as={Link} to="/projectOne">
             <Image src={project1} />
             <CardContent className="cardContent">
@@ -43,35 +43,34 @@ const Portfolio = () => {
             </CardContent>
           </Card>
 
-        <Card as={Link} to="/projectTwo">
-          <Image src={project2} />
-          <CardContent className="cardContent">
-            <CardHeader className="cardHeader" textAlign="center">
-              BreweryApp
-            </CardHeader>
-          </CardContent>
-        </Card>
+          <Card as={Link} to="/projectTwo">
+            <Image src={project2} />
+            <CardContent className="cardContent">
+              <CardHeader className="cardHeader" textAlign="center">
+                BreweryApp
+              </CardHeader>
+            </CardContent>
+          </Card>
 
-        <Card as={Link} to="/projectThree">
-          <Image src={project3} />
-          <CardContent className="cardContent">
-            <CardHeader className="cardHeader" textAlign="center">
-              Best London Parks
-            </CardHeader>
-          </CardContent>
-        </Card>
+          <Card as={Link} to="/projectThree">
+            <Image src={project3} />
+            <CardContent className="cardContent">
+              <CardHeader className="cardHeader" textAlign="center">
+                Best London Parks
+              </CardHeader>
+            </CardContent>
+          </Card>
 
-        <Card as={Link} to="/projectFour">
-          <Image src={project4} />
-          <CardContent className="cardContent">
-            <CardHeader className="cardHeader" textAlign="center">
-              E@syShopp
-            </CardHeader>
-          </CardContent>
-        </Card>
-
-      </CardGroup>
-    </Container>
+          <Card as={Link} to="/projectFour">
+            <Image src={project4} />
+            <CardContent className="cardContent">
+              <CardHeader className="cardHeader" textAlign="center">
+                E@syShopp
+              </CardHeader>
+            </CardContent>
+          </Card>
+        </CardGroup>
+      </Container>
     </motion.div>
   );
 };

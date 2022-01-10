@@ -1,60 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luckiest+Guy&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luckiest+Guy&family=Yellowtail&display=swap");
 
-.ui.inverted.raised.center.aligned.segment{
+.ui.inverted.raised.center.aligned.segment {
   margin-top: 10em;
   border-radius: 30px;
 }
 
-.ui.tiny.modal.transition.visible.active, .content{
+.ui.tiny.modal.transition.visible.active,
+.content {
   border-radius: 50px !important;
 }
 
-.ui.tiny.image{
+.ui.tiny.image {
   border-radius: 50px;
-  padding: 3px;}
+  padding: 3px;
+}
 
-.buttonsMotion{
+.buttonsMotion {
   margin-top: 1em !important;
 }
-.motion{
+.motion {
   display: flex;
 }
 
-.item{
+.item {
   padding: 3px !important;
   padding-right: 10px !important;
   color: rgb(0, 0, 0) !important;
-  font-family: 'Architects Daughter', cursive !important;
+  font-family: "Architects Daughter", cursive !important;
   font-size: 1.6em;
   margin-right: 2em;
-  text-shadow: 2px 5px 10px  black;
+  text-shadow: 2px 5px 10px black;
 }
 
-.item:hover{
+.item:hover {
   color: black !important;
   text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white !important;
   text-transform: uppercase !important;
 }
 
-.ui.header.myname{
+.ui.header.myname {
   color: rgb(0, 0, 0) !important;
-  font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
   font-size: 1.8em !important;
   margin-left: 0.6em;
   text-shadow: 0px 1px 10px rgb(65, 59, 59);
 }
 
-.ui.header.myname:hover{
+.ui.header.myname:hover {
   color: black !important;
   text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white !important;
 }
 
-.ui.tiny.menu .item:before{
+.ui.tiny.menu .item:before {
   background: none;
   content: 0;
 }
 
-.ui.tiny.stackable.top.fixed.menu{
+.ui.tiny.stackable.top.fixed.menu {
   background-color: rgba(255, 0, 0, 0.418);
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -62,24 +64,23 @@
   box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset;
 }
 
-body{
-  cursor: url('./assets/cur1054.cur'), pointer !important;
+body {
+  cursor: url("./assets/cur1054.cur"), pointer !important;
 }
 
-
-.modalIcons{
+.modalIcons {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
 }
 
-.titles{
+.titles {
   margin-top: 4em !important;
   color: rgb(0, 0, 0) !important;
   text-shadow: 4px 5px 20px rgb(65, 61, 61);
-  font-family: 'Architects Daughter', cursive !important;
+  font-family: "Architects Daughter", cursive !important;
 }
 
-.divider{
+.divider {
   height: 0.2em !important;
   background-color: rgb(206, 6, 6) !important;
   width: 110%;
@@ -88,34 +89,46 @@ body{
   border-radius: 20px;
 }
 
-.description{
+.description {
   color: rgb(0, 0, 0) !important;
-  font-family: 'Architects Daughter', cursive !important;
+  font-family: "Architects Daughter", cursive !important;
   font-size: 1.5em !important;
 }
 
-
-.cardHeader{
-  font-family: 'Architects Daughter', cursive !important;
+.cardHeader {
+  font-family: "Architects Daughter", cursive !important;
   font-size: 2em !important;
   text-shadow: 2px 5px 15px black;
 }
 
-.cardContent{
+.cardContent {
   border-top: 0px !important;
   background-color: rgba(255, 0, 0, 0.418) !important;
   box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset !important;
 }
 
-.card{
+.card {
   box-shadow: 0px 0px 10px 2px rgb(0, 0, 0) !important;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05) !important;
   box-shadow: 0px 0px 10px 8px rgb(240, 5, 5) !important;
 }
 
-.ui.massive.centered.image, .ui.huge.image {
+.ui.massive.centered.image,
+.ui.huge.image {
   border-radius: 50px !important;
+}
+
+.modalTitle {
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 4px 5px 20px rgb(65, 61, 61);
+  font-family: "Architects Daughter", cursive !important;
+}
+
+.modalText {
+  color: rgb(0, 0, 0) !important;
+  font-family: "Architects Daughter", cursive !important;
+  font-size: 1.5em !important;
 }

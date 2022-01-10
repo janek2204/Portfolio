@@ -29,6 +29,7 @@ function ContactMe() {
       </Menu.Item>
 
       <Modal
+        closeIcon
         size="tiny"
         dimmer={dimmer}
         open={open}
