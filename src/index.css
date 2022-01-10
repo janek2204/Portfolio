@@ -56,12 +56,13 @@
   content: 0;
 }
 
-.ui.tiny.stackable.top.fixed.menu {
-  background-color: rgba(255, 0, 0, 0.418);
+.ui.tiny.stackable.top.fixed.menu,
+.modalTitle {
+  background-color: rgba(255, 0, 0, 0.418) !important;
   border-bottom: 2px solid;
   border-left: 2px solid;
   border-top: 1px solid;
-  box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset;
+  box-shadow: 0px 0px 10px 5px rgb(255, 0, 0) inset !important;
 }
 
 body {
@@ -131,4 +132,12 @@ body {
   color: rgb(0, 0, 0) !important;
   font-family: "Architects Daughter", cursive !important;
   font-size: 1.5em !important;
+}
+
+.ui.modal.transition.visible.active {
+  border-radius: 30px !important;
+}
+.ui.center.aligned.header.modalTitle {
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
 }

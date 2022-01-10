@@ -34,8 +34,13 @@ const ProjectThree = () => {
         <Header as="h4" className="description">
           Building Best London Parks was my first experience of building a
           full-stack, MERN application as part of a group. After a short amount
-          of discussion, we came up with the idea of creating London parks app,
-          a social app for users to share and review their favourite parks.
+          of discussion, we came up with the idea of creating the London parks
+          app, a social app for users to share and review their favourite parks.
+          For the backend, my responsibility was to build all needed routes for
+          our models. For the frontend, I created a design of all parks and home
+          page sections, registering and login users, image upload using
+          Cloudinary.com, user profile page, MapBox, image carousel and add
+          notification blocks using react toastify package.
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="description">
@@ -55,7 +60,7 @@ const ProjectThree = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit site London Parks!
+            Visit London Parks!
           </a>
         </Header>
         <Swiper
@@ -77,7 +82,7 @@ const ProjectThree = () => {
           }}
           loop={false}
           keyboard={{
-            "enabled": true
+            enabled: true,
           }}
         >
           <SwiperSlide>
