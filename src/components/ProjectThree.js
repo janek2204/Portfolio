@@ -35,7 +35,7 @@ const ProjectThree = () => {
           Building Best London Parks was my first experience of building a
           full-stack, MERN application as part of a group. After a short amount
           of discussion, we came up with the idea of creating the London parks
-          app, a social app for users to share and review their favourite parks.
+          app, a social app for users to share and review their favorite parks.
           For the backend, my responsibility was to build all needed routes for
           our models. For the frontend, I created a design of all parks and home
           page sections, registering and login users, image upload using
@@ -56,7 +56,7 @@ const ProjectThree = () => {
           </a>
           <br />
           <a
-            href="https://london-parks.herokuapp.com/"
+            href="https://london-parks-d997f0328bbb.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >

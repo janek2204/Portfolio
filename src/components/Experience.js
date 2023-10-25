@@ -16,8 +16,24 @@ const Experience = () => {
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="titles">
-          Software Engineering Immersive Course, General Assembly London, Remote
-          | Sep 2021 - Dec 2021
+          Junior Full-Stack Software Developer, AttractionTickets.com, London,
+          Hybrid | Mar 2022 - Present
+        </Header>
+        <Header as="h4" className="description">
+          I possess expertise in crafting high-quality, efficient code aligned
+          with industry standards and actively contribute to the agile
+          development process, with a focus on Jenkins deployment for automated
+          releases. Proficient in Next.js and TypeScript, I specialize in
+          building scalable web applications with dynamic user interfaces in
+          React. My achievements include implementing Apple Pay to meet customer
+          needs and leading a white-label project for a key client, which
+          expanded the brand into new global markets by leveraging PHP and
+          Drupal for dynamic web solutions.
+        </Header>
+
+        <Header as="h2" className="titles">
+          Software Engineering Immersive Course, General Assembly, London,
+          Remote | Sep 2021 - Dec 2021
         </Header>
         <Header as="h4" className="description">
           The GA SEI course was a full time immersive course that included over

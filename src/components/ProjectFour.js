@@ -34,8 +34,9 @@ const ProjectFour = () => {
         <Header as="h4" className="description">
           For this project I had to use Django with PostgreSQL as a back-end
           server and React.js for the front-end. I decided to do this project
-          independently. After some thought about what I would like to build, I decided
-          to do something I haven’t tried before so I picked an e-commerce website.
+          independently. After some thought about what I would like to build, I
+          decided to do something I haven’t tried before so I picked an
+          e-commerce website.
         </Header>
         <Divider className="divider" />
         <Header as="h2" className="description">
@@ -51,7 +52,7 @@ const ProjectFour = () => {
           </a>
           <br />
           <a
-            href="https://easyshopp.herokuapp.com/"
+            href="https://easyshopp-2692167865b4.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -77,7 +78,7 @@ const ProjectFour = () => {
           }}
           loop={false}
           keyboard={{
-            "enabled": true
+            enabled: true,
           }}
         >
           <SwiperSlide>
